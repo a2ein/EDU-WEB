@@ -1,0 +1,58 @@
+header
+{color: #10c72b;
+	font-size: 2.2em;
+	font-family: 'Open Sans',sans-serif;
+   text-align: center;
+   text-emphasis: none;
+   text-decoration: none;
+}
+p{
+    text-align: justify;
+    font-size: medium;
+    color: rgba(1, 14, 28, 0.774);
+}
+
+
+/*Service Section*/
+/*Service Section*/
+.service-swipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(118, 7, 7, 0),rgb(231, 224, 231)),url("");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.service-swipe .s-card img {
+	width: 100px;
+}
+.service-swipe a {
+	padding: 0;
+	margin: 40px 10px;
+}
+.service-swipe .s-card {
+    text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	width: 350px;
+	height: 200px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+					0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+.service-swipe .s-card p {
+	text-decoration: none;
+    text-align:right;
+    color: #081bea;
+    
+}
+.service-swipe .s-card:hover {
+	box-shadow: 0 0 50px rgba(193, 193, 193, 0.8);
+	transform: translateY(-10px);
+}
