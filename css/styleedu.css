@@ -56,3 +56,27 @@ p{
 	box-shadow: 0 0 50px rgba(193, 193, 193, 0.8);
 	transform: translateY(-10px);
 }
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media screen and (max-width: 960px)
+.left-col {
+    width: 100%;
+    text-align: center;
+}
+footer {
+    color: hsla(0, 0%, 88%, 0.744);
+    background: #7a7878c9;
+    padding: 50px 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+footer.p{
+	color: #10c72b;
+}
