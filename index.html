@@ -9,9 +9,34 @@ under construction
 </head>
 <header>
   WELCOME TO EDU-WEB
+  <hr>
 </header>
 <html>
 <body>
+
+
+
+
+<table>VISITED By</table>
+    <h3 id="count" >..</h3>
+    <h1>people</h1>
+
+    <script>
+      const countEl = document.getElementById("count");
+      countvisits();
+
+      function countvisits() {
+        fetch('https://api.countapi.xyz/update/click?amount=1')
+          .then((res) => res.json())
+          .then((res) => {
+            countEl.innerHTML = res.value;
+          });
+      }
+    </script>
+
+
+
+
 
     <br>
 

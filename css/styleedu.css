@@ -6,12 +6,19 @@ header
    text-emphasis: none;
    text-decoration: none;
 }
+body.h3{
+	color: #10c72b;
+}
 p{
     text-align: justify;
     font-size: medium;
     color: rgba(1, 14, 28, 0.774);
 }
-
+hr{
+	color: #10c72b;
+height: 10px;
+	width: 100%;
+}
 
 /*Service Section*/
 /*Service Section*/
