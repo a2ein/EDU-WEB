@@ -34,6 +34,10 @@ height: 10px;
 .service-swipe .s-card img {
 	width: 100px;
 }
+
+.service-swipe .t-card img {
+	width: 5px;
+}
 .service-swipe a {
 	padding: 0;
 	margin: 40px 10px;
@@ -63,6 +67,38 @@ height: 10px;
 	box-shadow: 0 0 50px rgba(193, 193, 193, 0.8);
 	transform: translateY(-10px);
 }
+
+
+
+.service-swipe .t-card {
+	
+	display:flex;
+
+	flex-direction: row;
+	text-decoration: none;
+	justify-content: space-around;
+	padding: 10px;
+	
+	width: 90px;
+	height: 50px;
+	box-shadow: inset 0 0 50px rgba(255,255,255,0.05),
+					0 0 50px rgba(0,0,0,0.8);
+	border-radius: 50px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+.service-swipe .t-card p {
+	text-decoration: none;
+    text-align:center;
+    color: #5bec73;
+    
+}
+.service-swipe .t-card:hover {
+	box-shadow: 0 0 50px rgba(193, 193, 193, 0.8);
+	transform: translateY(-10px);
+}
+
+
 
 img {
     overflow-clip-margin: content-box;
